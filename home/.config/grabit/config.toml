@@ -1,0 +1,23 @@
+also_save = true
+save_state = false
+
+[edit]
+default = true
+instant_capture = true
+smooth = true
+always = true
+
+[recording]
+show_dimensions = false
+
+[gui]
+radius = "auto"
+
+[region]
+window_snap = true
+snap_animation = true
+window_radius = "auto"
+window_borders = true
+
+[capture]
+cursor = false

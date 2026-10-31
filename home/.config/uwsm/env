@@ -1,0 +1,21 @@
+# Toolkit backends (pure Wayland)
+export QT_QPA_PLATFORMTHEME="qt6ct"
+export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+export ELECTRON_OZONE_PLATFORM_HINT=wayland
+export MOZ_ENABLE_WAYLAND=1
+
+# VA-API hardware video decode (AMD iGPU)
+export LIBVA_DRIVER_NAME=radeonsi
+export VDPAU_DRIVER=radeonsi
+
+# Silence uwsm start messages on VT during greetd login (1 = stdout, 2 = +warnings)
+export UWSM_SILENT_START=2
+
+# Theme and Cursor
+export XCURSOR_PATH="$HOME/.local/share/icons:/usr/share/icons"
+
+# Cursor Theme Handling via script
+export XCURSOR_THEME="macOS"
+export XCURSOR_SIZE="32"
+export HYPRCURSOR_THEME="macOS"
+export HYPRCURSOR_SIZE="32"

@@ -1,0 +1,5 @@
+hl.on("hyprland.start", function()
+    hl.exec_cmd("uwsm app -- noctalia")
+    hl.exec_cmd("systemd-inhibit --what=handle-power-key --mode=block --who=hyprland --why='compositor owns power key' sleep infinity")
+    hl.exec_cmd("uwsm app -- ~/.config/hypr/scripts/cursor-sync.sh")
+end)
