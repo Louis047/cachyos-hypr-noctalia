@@ -1,7 +1,0 @@
-apple_cursor
-grabit-git
-noctalia-git
-otf-apple-sf-pro
-ps_mem
-ttf-apple-emoji
-zapfast-bin
